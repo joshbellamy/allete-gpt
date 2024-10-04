@@ -64,7 +64,8 @@ async def index():
     return await render_template(
         "index.html",
         title=app_settings.ui.title,
-        favicon=app_settings.ui.favicon
+        favicon=app_settings.ui.favicon,
+        disclaimer=app_settings.ui.disclaimer
     )
 
 
