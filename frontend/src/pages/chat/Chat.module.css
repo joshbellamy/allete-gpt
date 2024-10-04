@@ -126,7 +126,7 @@
 }
 
 .chatMessageErrorContent {
-  font-family: 'Segoe UI';
+  font-family: 'Open Sans', 'Segoe UI', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
