@@ -49,7 +49,7 @@ class _UiSettings(BaseSettings):
     favicon: str = "/favicon.ico"
     show_share_button: bool = True
     show_chat_history_button: bool = True
-
+    disclaimer: Optional[str] = None
 
 class _ChatHistorySettings(BaseSettings):
     model_config = SettingsConfigDict(
