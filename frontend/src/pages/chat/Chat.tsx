@@ -933,7 +933,7 @@ const Chat = () => {
               </Stack>
               <QuestionInput
                 clearOnSend
-                placeholder="Message ALLETE GPT"
+                placeholder="Message ALLETE GPT..."
                 disabled={isLoading}
                 onSend={(question, id) => {
                   appStateContext?.state.isCosmosDBAvailable?.cosmosDB
